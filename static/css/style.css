@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #cca5a5;
+    background-color: #f8e9fa;
 }
 
 header {
@@ -12,14 +14,33 @@ header {
     font-size: 18px;
     color: #000;
     padding: 20px;
-    background-color: #420303;
-    /* Change background color to dark */
+    background-color: #29242a;
+}
+
+.navbar-brand {
+    font-size: 25px;  
+}
+
+.navbar-nav{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: 500;
 }
 
 .logo{
-    width: 40px;
-    height: 40px;
-    margin-right: 5px;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+}
+
+.container-fluid{
+    font-size: 18px;
+}
+
+.container-fluid a{
+    color: #edf0f1;
 }
 
 .ncpy{
@@ -35,43 +56,57 @@ header {
     position: fixed;
 }
 
-.named{
-    font-weight: bold;
-    font-size: 50px;
-    color: #000;
-    text-align: center;
-    margin-top: 20px;
-}
 
 .deskripsi{
-    font-size: 20px;
-    color: #000;
+    font-size: 80px;
+    color: #6d0064;
     text-align: justify;
-    margin-top: 530px;
-    margin-left: 250px;
+    margin-top: 150px;
+    font-weight: 600;
+    margin-left: 100px;
     margin-right: 250px;
 }
 
+.deskripsi2{
+    font-size: 75px;
+    color: #000;
+    text-align: justify;
+    font-weight: 600;
+    margin-left: 100px;
+}
+
+.ket{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: #000;
+    text-align: justify;
+    margin-left: 100px;
+}
+
 .image_home1{
-    width: 400px;
-    height: 400px;
-    margin-left: 200px;
-    margin-top: 100px;
+    width: 960px;
+    height: 900px;
+
+    margin-top: 15px;
 }
 
-.image_home2{
-    width: 400px;
-    height: 400px;
-    margin-right: 200px;
-    margin-top: 100px;
-}
-
-.nav-link:active{
-    color: aquamarine;
-    
-}
 
 .nav-link:hover{
     color: rgb(251, 127, 255);
     
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgb(141, 0, 169);
+    border: none;
+
+    border-radius: 50px;
+    cursor: pointer;
+    transform: all 0.3s ease 0s;
+    color: #edf0f1;
+}
+
+button:hover {
+    background-color: rgb(251, 127, 255);
 }

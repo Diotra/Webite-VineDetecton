@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #cca5a5;
+    background-color: #f8e9fa;
 }
 
 header {
@@ -11,20 +13,33 @@ header {
     align-items: center;
     font-size: 18px;
     color: #000;
-    padding: 20px;
-    background-color: #420303;
-    /* Change background color to dark */
+    background-color: #29242a;
+}
+
+.navbar-brand {
+    font-size: 25px;  
 }
 
 .logo{
-    width: 40px;
-    height: 40px;
-    margin-right: 5px;
+    width: 60px;
+    height: 60px;
+    margin-left: 40px;
 }
 
-.nav-link:active{
-    color: aquamarine;
-    
+.navbar-nav{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.container-fluid{
+    font-size: 18px;
+}
+
+.container-fluid a{
+    color: #edf0f1;
 }
 
 .nav-link:hover{
@@ -33,6 +48,7 @@ header {
 }
 
 .named{
+    font-family: "Montserrat", sans-serif;
     font-weight: bold;
     font-size: 40px;
     color: #000;
@@ -56,7 +72,7 @@ header {
 
 /* Main section styles */
 section.col-sm {
-    background-color: #f5f5f5;
+    background-color: rgb(141, 0, 169);
     max-width: 900px; /* Set your desired maximum width */
     max-height: 900px; /* Set your desired maximum height */
     width: 100%;
@@ -96,7 +112,7 @@ img {
 } */
 
 .btnCustom {
-    background-color: #2c0a02;
+    background-color: #29242a;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -105,24 +121,29 @@ img {
     cursor: pointer;
 }
 
+.btnCustom:hover {
+    background-color: rgb(141, 0, 169);
+}
+
+
+
 /* Button styles */
 .btnHome {
     margin-top: 20px;
     text-align: center;
 }
 
-/* New styles
-.form-container {
-    display: flex;
-    justify-content: center;
+button {
+    padding: 9px 25px;
+    background-color: rgb(141, 0, 169);
+    border: none;
+
+    border-radius: 50px;
+    cursor: pointer;
+    transform: all 0.3s ease 0s;
+    color: #edf0f1;
 }
 
-.form-container form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+button:hover {
+    background-color: rgb(251, 127, 255);
 }
-
-.form-container form button {
-    margin-top: 20px;
-} */

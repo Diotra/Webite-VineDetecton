@@ -10,10 +10,12 @@
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg">
+      <img src="/static/source/logo.png" alt="meletus" class="logo">
         <div class="container-fluid">
-          <img src="/static/source/volcano.png" alt="meletus" class="logo">
-          <a class="navbar-brand" href="#">Volcano Eruption Detection</a>
+          <a class="navbar-brand" href="#">
+            <b>GDisEct</b>
+          </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -21,7 +23,7 @@
             <div class="navbar-nav">
               <a class="nav-link" aria-current="page" href="/home">Home</a>
               <a class="nav-link" href="/Detections">Media</a>
-              <a class="nav-link active" href="/webcam">Webcam</a>
+              <a class="nav-link" href="/webcam">About</a>
             </div>
           </div>
         </div>
@@ -29,20 +31,9 @@
 </header>
 
 <section class="named">
-  <p>Real Time Object Detection</p>
-</section>
-<section class="desk">
-  <p>Output Video</p>
+  <p>This website is a website that is used to detect diseases on grape leaves.This website can detect 4 types of diseases, namely healthy leaves, esca leaves, leaf blight, leaf rot. This website is intended for people who have grape plants, so that it is easier to maintain the plants they have.</p>
 </section>
 
-  <section>
-      <img src="{{ url_for('webapp') }}" alt="Upload video" class="cam">
-      <i class="fas fa-camera"></i>
-  </section>
-  <section class="btnHome">
-    <a href="/home">
-      <button class="btnCustom">Return to Home</button>
-    </a>
   </section>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>

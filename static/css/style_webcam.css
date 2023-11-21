@@ -1,22 +1,46 @@
-body {
-    font-family: sans-serif;
-    background-color: #cca5a5;
-  }
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 
-header {
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8e9fa;
+}
+
+  header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 18px;
     color: #000;
     padding: 20px;
-    background-color: #420303;
-    /* Change background color to dark */
+    background-color: #29242a;
 }
+
+.navbar-brand {
+  font-size: 25px;  
+}
+
+.navbar-nav{
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
 .logo{
-  width: 40px;
-  height: 40px;
-  margin-right: 5px;
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+}
+
+.container-fluid{
+  font-size: 18px;
+}
+
+.container-fluid a{
+  color: #edf0f1;
 }
 
 .nav-link:active{
@@ -29,77 +53,34 @@ header {
     
 }
 
+button {
+  padding: 9px 25px;
+  background-color: rgb(141, 0, 169);
+  border: none;
+
+  border-radius: 50px;
+  cursor: pointer;
+  transform: all 0.3s ease 0s;
+  color: #edf0f1;
+}
+
+button:hover {
+  background-color: rgb(251, 127, 255);
+}
+
   section {
     justify-content: center;
     display: flex;
     align-items: center;
-    margin: 10px auto;
+    margin: 360px auto;
     max-width: 1600px;
   }
 
-
-
-  .feature-box {
-    margin-bottom: 10px;
-  }
-
-  .top {
-    border-bottom: 1px solid #dddddd;
-  }
-
-  .second {
-    border-top: 1px solid #dddddd;
-  }
-
-  .col-sm {
-    display: flex;
-    justify-content: center;
-  }
-
   .named{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #000;
-    font-weight: bold;
-    font-size: 40px;
+    font-size: 26px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
   }
-
-  .desk{
-    color: #000;
-    font-weight: bold;
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-  .cam{
-    width: 800px;
-    height: 600px;
-    margin-top: 20px;
-    margin-left: 10px;
-    border-radius: 10px;
-  }
-
-  .fa-camera {
-    padding: 10px;
-    font-size: 36px;
-    color: #00C4CC;
-  }
-
-  /* Button styles */
-  .btnHome {
-    margin-top: 20px;
-    text-align: center;
-  }
-
-  .btnCustom {
-    background-color: #2c0a02;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-
-  

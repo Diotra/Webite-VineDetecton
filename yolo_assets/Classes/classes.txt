@@ -1,2 +1,4 @@
-Mountain
-Volcano Eruption
+Leaf_BlackRot
+Leaf_Esca
+Healthy_Leaf
+Leaf_Blight
